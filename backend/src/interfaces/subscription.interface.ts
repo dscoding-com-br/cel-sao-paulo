@@ -2,7 +2,7 @@
 export interface ISubscription {
 	id?: number;
 	userId: number;
-	communityId: number;
+	topicId: number;
 	createdAt?: Date;
 	updatedAt?: Date;
 };

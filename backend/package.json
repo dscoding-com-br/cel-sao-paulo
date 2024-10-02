@@ -1,7 +1,7 @@
 {
-	"name": "pfa.api",
+	"name": "my.community.api",
 	"version": "1.0.0",
-	"description": "PFA API",
+	"description": "Is a API for a app to send and receive notifications from communities",
 	"main": "build/src/server.js",
 	"author": "dscoding.br@gmail.com",
 	"license": "MIT",

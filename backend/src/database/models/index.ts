@@ -1,4 +1,4 @@
 export * from "./users.model";
-export * from "./notifications.model";
+export * from "./messages.model";
 export * from "./subscriptions.model";
-export * from "./communities.model";
+export * from "./topic.model";

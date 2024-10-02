@@ -7,7 +7,7 @@ export interface SubscriptionInstance extends Model<ISubscription, CreationAttri
 export const Subscriptions = database.define<SubscriptionInstance>("subscriptions", {
 	id: { type: DataTypes.INTEGER.UNSIGNED, autoIncrement: true, primaryKey: true },
 	userId: { type: DataTypes.INTEGER.UNSIGNED, allowNull: false },
-	communityId: { type: DataTypes.INTEGER.UNSIGNED, allowNull: false },
+	topicId: { type: DataTypes.INTEGER.UNSIGNED, allowNull: false },
 	createdAt: { type: DataTypes.DATE, allowNull: false },
 	updatedAt: { type: DataTypes.DATE, allowNull: false },
 });

@@ -1,5 +1,5 @@
 export * from "./user.interface";
-export * from "./notification.interface";
+export * from "./messages.interface";
 export * from "./subscription.interface";
-export * from "./community.interface";
+export * from "./topic.interface";
 
